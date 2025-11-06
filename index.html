@@ -1,112 +1,125 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogos Computacionais</title>
 </head>
-    <style>
+<style>
+    body {
+        background-color: cadetblue;
+    }
 
-        body {
-            background-color: cadetblue;
-        }
+    .container {
+        width: 80%;
+        margin: 20% auto;
+        margin-top: 1rem;
+        margin-bottom: 0;
+        border: solid;
+        border-radius: 10px;
+        padding: 1rem;
+        background-color: white;
+        box-shadow: 5px 5px 5px;
+    }
 
-        .container {
-            width: 80%;
-            margin: 20% auto;
-            margin-top: 3rem;
-            margin-bottom: 0;
-            border: solid;
-            border-radius: 10px;
-            padding: 1rem;
-            background-color: white;
-            box-shadow: 5px 5px 5px;
-        }
+    #tit {
+        font-size: 50px;
+        width: 100%;
+        font-weight: bold;
+        text-align: center;
+    }
 
+    @media screen and(max-width: 760px) {
         #tit {
-            font-size: 2.2rem;
-            width: 100%;
-            font-weight: bold;
-            text-align: center;
+            font-size: 10px;
         }
-
-        @media screen and(max-width: 760px) {
-            #tit {
-                font-size: 10px;
-            }
-        }
-        
-
-        .listaJogos li {
-            list-style-type: none;
-        }
-
-        .listaJogos img {
-            width: 80%;
-            border: solid 1px;
-            box-shadow:  5px 5px 5px;
-            border-radius: 10px;
-            margin: 10%;
-        }
-
-        .listaJogos a{
-            color: black;
-            text-decoration: none;
-            font-weight: bold;
-        
-        }
-
-        .listaJogos a:hover{
-            color: rgb(43, 164, 185);
-            text-decoration: none;
-        
-        }
+    }
 
 
-    </style>
+    .listaJogos li {
+        list-style-type: none;
+    }
+
+    .listaJogos img {
+        width: 80%;
+        border: solid 1px;
+        box-shadow: 5px 5px 5px;
+        border-radius: 10px;
+        margin: 10%;
+    }
+
+    .listaJogos a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+
+    .listaJogos a:hover {
+        color: rgb(43, 164, 185);
+        text-decoration: none;
+
+    }
+</style>
+
 <body>
 
     <header class="container">
-         <div style="text-align: center;">
+        <div style="text-align: center;">
             <h1 id="tit">Bem vindo(a) á Prática de Lógica Computacional!</h1>
-            <p style="color: red;">Escolha o jogo que você deseja experimentar e praticar (CLIQUE NA IMAGEM DO JOGO QUE DESEJAR)</p>
+            <p style="color: red;">Escolha o jogo que você deseja experimentar e praticar (CLIQUE NA IMAGEM DO JOGO QUE
+                DESEJAR)</p>
             <br>
         </div>
     </header>
     <br>
+
     <main class="container">
+
+
+        <section style="display: flex; justify-content: center; align-items: center;">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbYYzHhHjGSzcVesLFC2rGW5EOQcP1SgMV2A&s" alt="">
+        </section>
        
         <article class="listaJogos">
             <a href="trueFalse.html"><img src="VerdadeiroFalso.png" alt="Imagem"></a>
-             
-             <p> Será que você sabe diferenciar o que é verdade e o que é mentira? Leia cada frase e escolha Verdadeiro ou Falso. Atenção! Algumas pegadinhas vão testar sua lógica e seu conhecimento.</p>
+            <hr>
+            <p> Será que você sabe diferenciar o que é verdade e o que é mentira? Leia cada frase e escolha Verdadeiro
+                ou Falso. Atenção! Algumas pegadinhas vão testar sua lógica e seu conhecimento.</p>
+            <hr>
         </article>
-        
+
         <article class="listaJogos">
             <a href="caca_a_verdade.html"><img src="CacaVerdade.png" alt="Imagem"></a>
-             
-              <p>Várias frases estão escondendo segredos... Seu desafio é descobrir quais são verdadeiras! Cada resposta certa mostra uma explicação que vai te deixar mais esperto.</p>
-                </p> 
+            <hr>
+            <p>Várias frases estão escondendo segredos... Seu desafio é descobrir quais são verdadeiras! Cada resposta
+                certa mostra uma explicação que vai te deixar mais esperto.</p>
+            </p>
+            <hr>
         </article>
+
         <article class="listaJogos">
             <a href="logicaCores.html"><img src="LogicaCores.png" alt="Imagem"></a>
-            
-            <p>Observe bem as cores e descubra o padrão secreto! Qual cor vem a seguir? Use sua atenção e raciocínio para acertar e aumentar sua pontuação.</p>
-          
+            <hr>
+            <p>Observe bem as cores e descubra o padrão secreto! Qual cor vem a seguir? Use sua atenção e raciocínio
+                para acertar e aumentar sua pontuação.</p>
+            <hr>
         </article>
+
         <article class="listaJogos">
             <a href="caminhoLogico.html"><img src="CaminhoLogico.png" alt="Imagem"></a>
-            
-            <p>Siga o caminho certo usando a lógica e o raciocínio! Escolha as casas de acordo com as regras e chegue até o final do tabuleiro. Cuidado: um passo errado pode te fazer voltar!</p>
+            <hr>
+            <p>Siga o caminho certo usando a lógica e o raciocínio! Escolha as casas de acordo com as regras e chegue
+                até o final do tabuleiro. Cuidado: um passo errado pode te fazer voltar!</p>
+            <hr>
         </article>
-    
+        <br><br><br><br>
+
     </main>
-     <footer class="container">
-      <br>
-      <p style="text-align: center;">COPY@2025 A.M</p>
-  </footer>
+    <footer class="container">
+        <p style="text-align: center;">COPY@2025 A.M</p>
+    </footer>
 </body>
+
 </html>
-
-
-
