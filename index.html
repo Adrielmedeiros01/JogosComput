@@ -23,6 +23,18 @@
             box-shadow: 5px 5px 5px;
         }
 
+        #tit {
+            font-size: 50px;
+            width: 100%;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        @media screen and(max-width: 760px) {
+            #tit {
+                font-size: 10px;
+            }
+        }
         
 
         .listaJogos li {
@@ -30,10 +42,11 @@
         }
 
         .listaJogos img {
-            width: 100%;
+            width: 80%;
             border: solid 1px;
             box-shadow:  5px 5px 5px;
             border-radius: 10px;
+            margin: 10%;
         }
 
         .listaJogos a{
@@ -53,17 +66,22 @@
     </style>
 <body>
 
-    <main class="container">
-        <div style="text-align: center;">
-            <h1 id="tit">Bem vindo(a) a Prática de Lógica Computacional!</h1>
+    <header class="container">
+         <div style="text-align: center;">
+            <h1 id="tit">Bem vindo(a) á Prática de Lógica Computacional!</h1>
             <p style="color: red;">Escolha o jogo que você deseja experimentar e praticar (CLIQUE NA IMAGEM DO JOGO QUE DESEJAR)</p>
             <br>
         </div>
+    </header>
+    <br>
+    <main class="container">
+       
         <article class="listaJogos">
             <a href="trueFalse.html"><img src="VerdadeiroFalso.png" alt="Imagem"></a>
              
              <p> Será que você sabe diferenciar o que é verdade e o que é mentira? Leia cada frase e escolha Verdadeiro ou Falso. Atenção! Algumas pegadinhas vão testar sua lógica e seu conhecimento.</p>
         </article>
+        
         <article class="listaJogos">
             <a href="caca_a_verdade.html"><img src="CacaVerdade.png" alt="Imagem"></a>
              
@@ -83,7 +101,7 @@
         </article>
     
     </main>
-     <footer>
+     <footer class="container">
       <br>
       <p style="text-align: center;">COPY@2025 A.M</p>
   </footer>
