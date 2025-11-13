@@ -51,7 +51,7 @@
   }
 
   .container{
-    width: 80%;
+    width: 90%;
     margin: 10% auto;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -93,7 +93,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 
   .salvar button{
@@ -214,9 +214,43 @@
     </article>
 
     <article>
+      <img width="100%" src="Captura de tela 2025-11-12 232619.png" alt="">
+      <label>Resposta:</label>
+      <input type="text" id="resposta11" placeholder="Digite a resposta aqui">
+    </article>
+
+    <article>
+      <img width="100%" src="Captura de tela 2025-11-12 232635.png" alt="">
+      <label>Resposta:</label>
+      <input type="text" id="resposta12" placeholder="Digite a resposta aqui">
+    </article>
+
+    <article>
+      <img width="100%" src="Captura de tela 2025-11-12 232650.png" alt="">
+      <label>Resposta:</label>
+      <input type="text" id="resposta13" placeholder="Digite a resposta aqui">
+    </article>
+
+    <article>
+      <img width="100%" src="Captura de tela 2025-11-12 232704.png" alt="">
+      <label>Resposta:</label>
+      <input type="text" id="resposta14" placeholder="Digite a resposta aqui">
+    </article>
+
+    <article>
+      <img width="100%" src="Captura de tela 2025-11-12 232718.png" alt="">
+      <label>Resposta:</label>
+      <input type="text" id="resposta15" placeholder="Digite a resposta aqui">
+    </article>
+
+    <br><br><br>
+    <article>
       <label>Caixinha de Comentários:</label><br><br>
       <textarea name="" id="comentario" placeholder="Digite seu comentário..."></textarea>
     </article>
+    <br><br><br>
+   
+    
 
   
     <div class="salvar">
@@ -246,10 +280,15 @@
       const resposta8 = document.getElementById('resposta8').value;
       const resposta9 = document.getElementById('resposta9').value;
       const resposta10 = document.getElementById('resposta10').value;
+      const resposta11 = document.getElementById('resposta11').value;
+      const resposta12 = document.getElementById('resposta12').value;
+      const resposta13 = document.getElementById('resposta13').value;
+      const resposta14 = document.getElementById('resposta14').value;
+      const resposta15 = document.getElementById('resposta15').value;
       const comentario = document.getElementById('comentario').value;
       //const pontuacao = document.getElementById('pontuacao').value;
 
-      if (!nome || !resposta1 || !resposta2 || !resposta3 || !resposta4 || !resposta5 || !resposta6 || !resposta7 || !resposta8 || !resposta9 || !resposta10 ) {
+      if (!nome || !resposta1 || !resposta2 || !resposta3 || !resposta4 || !resposta5 || !resposta6 || !resposta7 || !resposta8 || !resposta9 || !resposta10 || !resposta11 || !resposta12 || !resposta13 || !resposta14 || !resposta15) {
         alert('Preencha todos os campos!');
         return;
       }
